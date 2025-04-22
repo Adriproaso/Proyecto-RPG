@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8358f0fcfcb22418d7b5d788e02cc4, type: 3}
+  m_Name: Test Item
+  m_EditorClassIdentifier: 
+  itemID: e1ec577b-fb3c-439c-9d10-e5deb7f3171c
+  displayName: Test de Embarazo
+  description: Test de embarazo positivo de carlitos
+  icon: {fileID: 21300000, guid: 7c4272045db356d4191801bf4343dbe3, type: 3}
+  pickup: {fileID: 3170434404166986383, guid: b17b2dc0b163fff44bc908d4d1a8b71e, type: 3}
+  stackable: 0
+  consumable: 0

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c767c675f7554a876bd8a6cd08725, type: 3}
+  m_Name: Pardillo de Tiro
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6564202399455710714}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &6564202399455710714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 42023560-0194-4d66-bea4-5c6002b9fae4
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Se supone que debo estar practicando pero me da miedo el sonido del disparo...
+  isRootNode: 1
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 148
+    y: 229
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: QuestComplete
+  condition:
+    and: []

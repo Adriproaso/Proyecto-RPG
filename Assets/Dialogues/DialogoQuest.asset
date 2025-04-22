@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8971376936963870402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 7d83d0b2-3cfd-4748-abc1-ac73850abd3e
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Se me ha caido un peo, ayudame a encontrarlo porfa
+  isRootNode: 0
+  children:
+  - fcd7c714-9066-4e71-98cd-e234767b64ea
+  - 7c531a50-c174-4459-8f75-25c5c7574adf
+  rect:
+    serializedVersion: 2
+    x: 1093
+    y: 176
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: -99
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7299520626834846746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 38489ee3-89ce-44da-909d-193777ca4e12
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Como va la busqueda?
+  isRootNode: 1
+  children:
+  - ccf2b113-295a-40be-9061-3d482f2b4888
+  - c1ccfacd-8edc-4cec-81fd-c627649f3916
+  - 5df9cd1b-849e-4306-ac01-a1abc6b66b41
+  - c1a1ad07-0b80-4876-8ce2-3800537d7c57
+  rect:
+    serializedVersion: 2
+    x: 63
+    y: 631
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Peos
+        negate: 0
+--- !u!114 &-6799959848007072113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 7c531a50-c174-4459-8f75-25c5c7574adf
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Voy
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1566
+    y: 189
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: AddTag
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-3316345861514028170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 82bcf968-550d-4d1c-a0c8-f2cb265ee336
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Cagada Monumental
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1094
+    y: 21
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1957310982998178994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: e70ed155-731c-4967-8bbf-5576da67fe4e
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: '[Autoridad] Si, dime'
+  isRootNode: 0
+  children:
+  - 7d83d0b2-3cfd-4748-abc1-ac73850abd3e
+  - 82bcf968-550d-4d1c-a0c8-f2cb265ee336
+  rect:
+    serializedVersion: 2
+    x: 565
+    y: 80
+    width: 200
+    height: 100
+  isCheck: 1
+  statToCheck: 16
+  skillCheck: 9
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Peos
+        negate: 1
+--- !u!114 &-1380687407577077883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: c1a1ad07-0b80-4876-8ce2-3800537d7c57
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Guapo
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 836
+    y: 641
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasTag
+        parameters:
+        - Feo
+        negate: 1
+--- !u!114 &-1375047816633445207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: ccf2b113-295a-40be-9061-3d482f2b4888
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Ahi vamos
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 836
+    y: 559
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: ChangeStat
+  condition:
+    and: []
+--- !u!114 &-901763373935801247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: fcd7c714-9066-4e71-98cd-e234767b64ea
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: No
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1543
+    y: 338
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-274621378389266900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 5df9cd1b-849e-4306-ac01-a1abc6b66b41
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Feo
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 834
+    y: 394
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasTag
+        parameters:
+        - Feo
+        negate: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c767c675f7554a876bd8a6cd08725, type: 3}
+  m_Name: DialogoQuest
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7106502617796445921}
+  - {fileID: -1957310982998178994}
+  - {fileID: -901763373935801247}
+  - {fileID: -8971376936963870402}
+  - {fileID: -6799959848007072113}
+  - {fileID: -3316345861514028170}
+  - {fileID: -7299520626834846746}
+  - {fileID: -1375047816633445207}
+  - {fileID: 3504362972490299865}
+  - {fileID: -274621378389266900}
+  - {fileID: -1380687407577077883}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3504362972490299865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: c1ccfacd-8edc-4cec-81fd-c627649f3916
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: HasStat
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 836
+    y: 476
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasStat
+        parameters:
+        - Health
+        - 5
+        negate: 0
+--- !u!114 &7106502617796445921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: d5cf0e03-6e36-4ee9-bd14-9591c43b3211
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Hola Buenas, Tendrias un momento?
+  isRootNode: 1
+  children:
+  - e70ed155-731c-4967-8bbf-5576da67fe4e
+  - fcd7c714-9066-4e71-98cd-e234767b64ea
+  - c1ccfacd-8edc-4cec-81fd-c627649f3916
+  - 5df9cd1b-849e-4306-ac01-a1abc6b66b41
+  rect:
+    serializedVersion: 2
+    x: 69
+    y: 237
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Peos
+        negate: 1

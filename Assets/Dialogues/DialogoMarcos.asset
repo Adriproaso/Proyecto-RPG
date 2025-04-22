@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7475862749847821655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: f469e753-3d8b-48c7-bfbe-e6d909606ec7
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: 'Que necesitas '
+  isRootNode: 0
+  children:
+  - 06e8ee5c-06a7-400c-9cf1-1cc753b28e5f
+  rect:
+    serializedVersion: 2
+    x: 410
+    y: 134
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Jugar con Marcos
+        negate: 1
+--- !u!114 &-4821048495234951280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 58bf2e72-a35f-48d7-b11b-1de6c8b5eeba
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Avisame cuando quieras jugar
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1376
+    y: 216
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4506385672414542148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 00bde1c2-78ea-4540-be24-12eb84c56d08
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Atras calvo!
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1099
+    y: 660
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2525790186850000694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 4efab73a-45e6-4cb7-ada8-160ef1f35ade
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: A Jugar
+  isRootNode: 0
+  children:
+  - 8dfeb334-e7e2-4819-8323-554ff4faa965
+  rect:
+    serializedVersion: 2
+    x: 1069
+    y: 376
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: Jugar
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Jugar con Marcos
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Jugar con Marcos
+        negate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c767c675f7554a876bd8a6cd08725, type: 3}
+  m_Name: DialogoMarcos
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 402197479549925859}
+  - {fileID: -7475862749847821655}
+  - {fileID: -4506385672414542148}
+  - {fileID: 8561276735204808778}
+  - {fileID: 9052312627792442168}
+  - {fileID: -2525790186850000694}
+  - {fileID: 5053462775708601535}
+  - {fileID: -4821048495234951280}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &402197479549925859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 6404d036-632d-4a59-9bed-7a11ecc4f9fd
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Hola buenas, me podrias hacer un favor?
+  isRootNode: 1
+  children:
+  - f469e753-3d8b-48c7-bfbe-e6d909606ec7
+  - 00bde1c2-78ea-4540-be24-12eb84c56d08
+  - 4efab73a-45e6-4cb7-ada8-160ef1f35ade
+  rect:
+    serializedVersion: 2
+    x: 96
+    y: 348
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5053462775708601535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 8dfeb334-e7e2-4819-8323-554ff4faa965
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Oleeeee
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1374
+    y: 384
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8561276735204808778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 06e8ee5c-06a7-400c-9cf1-1cc753b28e5f
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: No tengo amigos con los que jugar a nada, quieres jugar conmigo?
+  isRootNode: 0
+  children:
+  - 00bde1c2-78ea-4540-be24-12eb84c56d08
+  - c680fe8b-22ce-4de0-a87b-76ad394debae
+  rect:
+    serializedVersion: 2
+    x: 679
+    y: 78
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9052312627792442168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: c680fe8b-22ce-4de0-a87b-76ad394debae
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: Venga va
+  isRootNode: 0
+  children:
+  - 58bf2e72-a35f-48d7-b11b-1de6c8b5eeba
+  rect:
+    serializedVersion: 2
+    x: 1060
+    y: 82
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []

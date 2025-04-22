@@ -1,0 +1,406 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8449171883431644072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 48abe716-a32e-4095-a13f-9f95b0f6bbb5
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: "Perfecto, entonces no tengo nada que ense\xF1arte."
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1008
+    y: 236
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: GiveTag
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5257831543552040505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 306ce94d-f140-443c-98b2-f159d25ef6b2
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: AAAAA
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1062
+    y: 920
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: Kill
+  condition:
+    and: []
+--- !u!114 &-3669260654841348798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 81f3bd38-f506-4bef-884f-30db48a8223d
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: No tengo ni idea de como usarla.
+  isRootNode: 0
+  children:
+  - 3fb89b4d-9d93-4326-a7b1-2fb1f57e1870
+  rect:
+    serializedVersion: 2
+    x: 711
+    y: 496
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1963061022274501794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 3fb89b4d-9d93-4326-a7b1-2fb1f57e1870
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Esta bien no pasa nada, siempre hay una primera vez
+  isRootNode: 0
+  children:
+  - bffe06df-a78f-4820-964b-50633318c094
+  rect:
+    serializedVersion: 2
+    x: 1019
+    y: 567
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-891698383110934417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 2d15cb78-6d6b-4ad1-89ac-707c727d7df6
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Menudo mentiroso, mira como te tiemblan las manos.
+  isRootNode: 0
+  children:
+  - bffe06df-a78f-4820-964b-50633318c094
+  rect:
+    serializedVersion: 2
+    x: 1012
+    y: 408
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-211334303941453511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 6b5c6216-4aef-42b2-aaa6-7022056ba828
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Veo que no llevas un arma encima, acercate a la mesa de ahi al lado para
+    coger una y empezar a disparar.
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 426
+    y: 173
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItem
+        parameters:
+        - 32af7157-4679-4647-9a3a-2b5a35e68ded
+        negate: 1
+--- !u!114 &-113368707749356417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: bffe06df-a78f-4820-964b-50633318c094
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Anda, acercate a la pared y prueba a disparar.
+  isRootNode: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1499
+    y: 614
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486c767c675f7554a876bd8a6cd08725, type: 3}
+  m_Name: Campo de Tiro
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2821320449779436673}
+  - {fileID: -211334303941453511}
+  - {fileID: 4598092556412464596}
+  - {fileID: 7684944378093803062}
+  - {fileID: -3669260654841348798}
+  - {fileID: -8449171883431644072}
+  - {fileID: -891698383110934417}
+  - {fileID: -113368707749356417}
+  - {fileID: -1963061022274501794}
+  - {fileID: 717607324586161167}
+  - {fileID: 3676106753709910540}
+  - {fileID: -5257831543552040505}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &717607324586161167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 54082f07-c3e1-49a1-bb76-f0f097d7c625
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: "[Francotirador] No te preocupes por ense\xF1arme, ya se como va esto."
+  isRootNode: 0
+  children:
+  - 48abe716-a32e-4095-a13f-9f95b0f6bbb5
+  rect:
+    serializedVersion: 2
+    x: 710
+    y: 663
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasTag
+        parameters:
+        - Francotirador
+        negate: 0
+--- !u!114 &2821320449779436673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: ba109b98-6f78-4dea-ad3c-ff7b9eda4917
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Bienvenido al campo de tiro
+  isRootNode: 1
+  children:
+  - 6b5c6216-4aef-42b2-aaa6-7022056ba828
+  - 2b04a396-7469-4d3e-b2d4-fc07f9ca4059
+  rect:
+    serializedVersion: 2
+    x: 95
+    y: 297
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3676106753709910540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 16832782-6b27-4f16-a4ea-8ebeacfc8641
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: 'Pegarle un tiro '
+  isRootNode: 0
+  children:
+  - 306ce94d-f140-443c-98b2-f159d25ef6b2
+  - bffe06df-a78f-4820-964b-50633318c094
+  rect:
+    serializedVersion: 2
+    x: 689
+    y: 807
+    width: 200
+    height: 100
+  isCheck: 1
+  statToCheck: 8
+  skillCheck: 10
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4598092556412464596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 2b04a396-7469-4d3e-b2d4-fc07f9ca4059
+  m_EditorClassIdentifier: 
+  currentSpeaker: 2
+  text: Veo que ya tienes un arma, sabes usarla?
+  isRootNode: 0
+  children:
+  - 7c14fcbd-5fd5-48a1-b406-069df8fed485
+  - 81f3bd38-f506-4bef-884f-30db48a8223d
+  - 54082f07-c3e1-49a1-bb76-f0f097d7c625
+  - 16832782-6b27-4f16-a4ea-8ebeacfc8641
+  rect:
+    serializedVersion: 2
+    x: 412
+    y: 439
+    width: 200
+    height: 100
+  isCheck: 0
+  statToCheck: 0
+  skillCheck: 0
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItem
+        parameters:
+        - 32af7157-4679-4647-9a3a-2b5a35e68ded
+        negate: 0
+--- !u!114 &7684944378093803062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c77cf858d35942ac443f8280ac151, type: 3}
+  m_Name: 7c14fcbd-5fd5-48a1-b406-069df8fed485
+  m_EditorClassIdentifier: 
+  currentSpeaker: 0
+  text: No es mi primera vez usando una
+  isRootNode: 0
+  children:
+  - 48abe716-a32e-4095-a13f-9f95b0f6bbb5
+  - 2d15cb78-6d6b-4ad1-89ac-707c727d7df6
+  rect:
+    serializedVersion: 2
+    x: 680
+    y: 293
+    width: 200
+    height: 100
+  isCheck: 1
+  statToCheck: 15
+  skillCheck: 10
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
