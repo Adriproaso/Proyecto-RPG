@@ -1,2 +1,7 @@
-Hello, this is a test for a CRPG 
-Making Dialogues, Stats, Levels and the likes
+Small project showcasing CRPG basics.
+- Custom Dialogue System
+- Dice Rolls
+- Attributes and Skills
+- Dialogue Skillchecks
+- Inventory
+- Missions
